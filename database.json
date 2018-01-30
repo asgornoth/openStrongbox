@@ -1,0 +1,21 @@
+{
+  "defaultEnv": "local",
+  "local": {
+    "driver": "mysql",
+    "user": "strongbox",
+    "password": "57r0ng80x",
+    "host": "mysql",
+	"port": "3306",
+    "database": "migrations",
+    "multipleStatements": true
+  },
+  "live": {
+    "driver": "mysql",
+    "user": "strongbox",
+    "password": "57r0ng80x",
+    "host": "mysql",
+	"port": "3306",
+    "database": "migrations",
+    "multipleStatements": true
+  }
+}
