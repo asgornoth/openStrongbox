@@ -3,7 +3,8 @@
   "version": "1.1.8",
   "private": true,
   "scripts": {
-    "start": "node .bin/www"
+    "start": "node .bin/www",
+	"postintall": "./node_modules/.bin/db-migrate up && ./node_modules/.bin/gulp app"
   },
   "main": "node .bin/www",
   "dependencies": {
