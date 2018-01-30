@@ -1,6 +1,6 @@
-USE poe_currency;
+USE migrations;
 
 DROP VIEW IF EXISTS v_search_summary;
 DROP VIEW IF EXISTS v_recent_searches;
 
-USE poe_currency;
+USE migrations;

@@ -1,10 +1,11 @@
-USE poe_currency;
+USE migrations;
 
 INSERT INTO leagues (id, name, active) VALUES
   (1, 'Standard', FALSE),
   (2, 'Hardcore', FALSE),
-  (3, 'Harbinger', TRUE),
+  (3, 'Harbinger', FALSE),
   (4, 'Harbinger Hardcore', FALSE);
+  (5, 'Abyss', TRUE);
 
 INSERT INTO currencies (id, name, css, active) VALUES
   (1,"Orb of Alteration","orb-of-alteration",TRUE),
@@ -26,4 +27,4 @@ INSERT INTO currencies (id, name, css, active) VALUES
   (514,"Orb of Binding","orb-of-binding",TRUE),
   (515,"Orb of Horizons","orb-of-horizons",TRUE);
 
-USE poe_currency;
+USE migrations;

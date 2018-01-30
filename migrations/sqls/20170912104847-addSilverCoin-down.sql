@@ -1,3 +1,3 @@
-USE poe_currency;
+USE migrations;
 DELETE FROM currencies WHERE id = 35;
-USE poe_currency;
+USE migrations;

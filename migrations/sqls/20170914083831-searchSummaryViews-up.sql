@@ -1,4 +1,4 @@
-USE poe_currency;
+USE migrations;
 
 DROP VIEW IF EXISTS v_recent_searches;
 CREATE VIEW v_recent_searches AS 
@@ -27,4 +27,4 @@ CREATE VIEW v_search_summary AS
     ORDER BY COUNT(s.id) DESC
     LIMIT 10;
 
-USE poe_currency;
+USE migrations;

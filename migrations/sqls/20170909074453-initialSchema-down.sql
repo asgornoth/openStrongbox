@@ -1,1 +1,1 @@
-DROP SCHEMA poe_currency;
+DROP SCHEMA migrations;

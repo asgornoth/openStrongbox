@@ -1,5 +1,5 @@
-USE poe_currency;
+USE migrations;
 
 ALTER TABLE leagues DROP COLUMN css;
 
-USE poe_currency;
+USE migrations;

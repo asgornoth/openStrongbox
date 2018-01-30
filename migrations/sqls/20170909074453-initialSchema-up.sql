@@ -1,7 +1,7 @@
-DROP SCHEMA IF EXISTS poe_currency;
-CREATE SCHEMA poe_currency;
+DROP SCHEMA IF EXISTS migrations;
+CREATE SCHEMA migrations;
 
-USE poe_currency;
+USE migrations;
 
 CREATE TABLE leagues (
   id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
@@ -27,7 +27,7 @@ CREATE TABLE currencies (
   _ua TIMESTAMP DEFAULT NOW() ON UPDATE NOW()
 );
 
-CREATE TABLE poe_currency.currency_ratios (
+CREATE TABLE migrations.currency_ratios (
   id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   pull_id INTEGER UNSIGNED NOT NULL,
   currency_from_id INTEGER UNSIGNED NOT NULL,
@@ -40,4 +40,4 @@ CREATE TABLE poe_currency.currency_ratios (
   CONSTRAINT fk_currency_ratios_pulls FOREIGN KEY (pull_id) REFERENCES pulls(id) ON DELETE CASCADE
 );
 
-USE poe_currency;
+USE migrations;

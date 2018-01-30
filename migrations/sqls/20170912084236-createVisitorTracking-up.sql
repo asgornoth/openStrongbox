@@ -1,4 +1,4 @@
-USE poe_currency;
+USE migrations;
 
 CREATE TABLE visitors (
   id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
@@ -27,4 +27,4 @@ CREATE TABLE searches (
   CONSTRAINT fk_searches_currencies_2 FOREIGN KEY (currency_to_id) REFERENCES currencies(id) ON DELETE CASCADE
 );
 
-USE poe_currency;
+USE migrations;
