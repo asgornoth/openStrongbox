@@ -4,7 +4,7 @@ INSERT INTO leagues (id, name, active) VALUES
   (1, 'Standard', FALSE),
   (2, 'Hardcore', FALSE),
   (3, 'Harbinger', FALSE),
-  (4, 'Harbinger Hardcore', FALSE);
+  (4, 'Harbinger Hardcore', FALSE),
   (5, 'Abyss', TRUE);
 
 INSERT INTO currencies (id, name, css, active) VALUES
