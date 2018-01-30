@@ -6,4 +6,4 @@ UPDATE leagues SET css = 'hardcore' WHERE id = 2;
 UPDATE leagues SET css = 'harbinger' WHERE id = 3;
 UPDATE leagues SET css = 'hardcore-harbinger', name = 'Hardcore Harbinger' WHERE id = 4;
 
-USE migrations;
+USE poe_currency;

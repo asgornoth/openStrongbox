@@ -27,4 +27,4 @@ CREATE TABLE searches (
   CONSTRAINT fk_searches_currencies_2 FOREIGN KEY (currency_to_id) REFERENCES currencies(id) ON DELETE CASCADE
 );
 
-USE migrations;
+USE poe_currency;

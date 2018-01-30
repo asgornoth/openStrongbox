@@ -26,4 +26,4 @@ INSERT INTO currencies (id, name, css, active) VALUES
   (514,"Orb of Binding","orb-of-binding",TRUE),
   (515,"Orb of Horizons","orb-of-horizons",TRUE);
 
-USE migrations;
+USE poe_currency;

@@ -40,4 +40,4 @@ CREATE TABLE poe_currency.currency_ratios (
   CONSTRAINT fk_currency_ratios_pulls FOREIGN KEY (pull_id) REFERENCES pulls(id) ON DELETE CASCADE
 );
 
-USE migrations;
+USE poe_currency;

@@ -27,4 +27,4 @@ CREATE VIEW v_search_summary AS
     ORDER BY COUNT(s.id) DESC
     LIMIT 10;
 
-USE migrations;
+USE poe_currency;
